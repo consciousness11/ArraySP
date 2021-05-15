@@ -12,8 +12,8 @@ namespace ArrayStuff
         {
             NumArray nmb = new NumArray();
             int[] array = { 25, 85, 95, 87, 25, 87, 96, 25, 45 };
-            nmb.sumArray(array);
-            nmb.productArray(array);
+            nmb.sumArray(array);  // sum of array 
+            nmb.productArray(array);  //product of array 
             Console.ReadKey();
         }
     }
